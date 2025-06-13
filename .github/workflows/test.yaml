@@ -24,4 +24,4 @@ jobs:
 
       - name: Run tests
         run: |
-          PYTHONPATH=. pytest --cov=app --cov-fail-under=100
+          PYTHONPATH=/home/runner/work/bookstore/bookstore pytest --cov=app --cov-fail-under=100
