@@ -1,0 +1,12 @@
+# Created by pytest automatically.
+
+#Environment 
+.venv 
+
+#Python 
+.pytest_cache 
+
+#trunk
+.trunk
+
+
