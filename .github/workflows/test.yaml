@@ -24,4 +24,7 @@ jobs:
 
       - name: Run tests
         run: |
-          PYTHONPATH=/home/runner/work/bookstore/bookstore pytest --cov=app --cov-fail-under=100
+          pwd
+          ls -al
+          export PYTHONPATH=$GITHUB_WORKSPACE
+          pytest --cov=app --cov-fail-under=100
