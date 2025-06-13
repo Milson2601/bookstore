@@ -24,7 +24,4 @@ jobs:
 
       - name: Run tests
         run: |
-          pwd
-          ls -al
-          export PYTHONPATH=$GITHUB_WORKSPACE
-          pytest --cov=app --cov-fail-under=100
+          PYTHONPATH=.pytest --cov=app --cov-fail-under=100
